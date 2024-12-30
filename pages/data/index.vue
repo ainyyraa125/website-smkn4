@@ -77,7 +77,7 @@ export default {
         "REKAYASA PERANGKAT LUNAK": 100,
         "TEKNIK BISNIS DAN SEPEDA MOTOR": 80,
         "TEKNIK OTOMASI INDUSTRI": 90,
-        "DESAIN KOMUNIKASI VISUAL": 70
+
       }
     };
   }

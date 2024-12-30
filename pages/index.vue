@@ -10,9 +10,9 @@
     <img src="~/assets/img/kepsek.png" alt="Kepala Sekolah" class="rounded-circle border border-4 border-primary" style="width: 150px; height: 150px;"/>
     <div class="ms-4">
       <h3 class="text-dark fw-bold">Sambutan Kepala Sekolah</h3>
-      <p class="text-muted">Assalamualaikum Warahmatullahi Wabarakatuh
-Selamat datang di SMKN 4 Tasikmalaya. Segala puji dan syukur kita panjatkan kehadirat Allah SWT, semoga kita semua ada dalam lindungan-Nya. Dan atas perkenan-Nya pula kami dapat menghadirkan website SMK Negeri 4 Tasikmalaya ini. Kami berharap dengan adanya website di SMK Negeri 4 Tasikmalaya ini para pengunjung dapat mengenal lebih jauh tentang sekolah kami sehingga dapat mempererat tali silaturrahmi antara sekolah dengan masyarakat demi kemajuan kita bersama. Tiada gading yang tak retak, website kami ini masih dalam proses pengembangan, masih banyak kekurangan yang harus kami perbaiki. Kritik dan sarannya yang membangun sangat kami harapkan untuk pengembangan ke depan.
-Akhirnya, saya mengucapkan terimakasih yang sebesar-besarnya kepada semua pihak yang tidak dapat disebutkan satu segala bantuan dan persatu atas fasilitasnya yang telah diberikan semoga semua yang kita lakukan bermanfaat bagi masyarakat. Wassalamu'alaikum Warahmatullahi Wabarakatuh.</p>
+      <p class="text-muted">Selamat datang di website resmi SMKN 4 Tasikmalaya. Kami sangat senang dapat memperkenalkan sekolah kami melalui platform ini. Di sini, Anda akan menemukan informasi penting mengenai kegiatan, program unggulan, serta prestasi yang telah kami raih selama ini.
+
+</p>
       <small class="text-muted">Kepala Sekolah, SMKN 4 Tasikmalaya</small>
     </div>
   </div>
@@ -21,26 +21,26 @@ Akhirnya, saya mengucapkan terimakasih yang sebesar-besarnya kepada semua pihak 
   <h2 class="bg-secondary text-white text-center py-3 mt-5 rounded-3">BERITA</h2>
   <div class="card-group mt-4">
     <div class="card shadow-sm rounded-lg mx-2">
-      <img src="~/assets/img/fair.jpg" class="card-img-top" alt="Expo" />
+      <img src="~/assets/img/expo.webp" class="card-img-top" alt="Expo" />
       <div class="card-body">
-        <h5 class="card-title text-dark">job fair</h5>
+        <h5 class="card-title text-dark">EXPO</h5>
         <p class="card-text">Latest update on our school expo.</p>
         <small class="text-muted">Last updated 3 mins ago</small>
       </div>
     </div>
     <div class="card shadow-sm rounded-lg mx-2">
-      <img src="~/assets/img/expo.webp" class="card-img-top" alt="Expo" />
+      <img src="~/assets/img/fair.jpg" class="card-img-top" alt="Expo" />
       <div class="card-body">
-        <h5 class="card-title text-dark">EXPO</h5>
+        <h5 class="card-title text-dark">Job Fair</h5>
         <p class="card-text">Details about our upcoming event.</p>
         <small class="text-muted">Last updated 3 mins ago</small>
       </div>
     </div>
     <div class="card shadow-sm rounded-lg mx-2">
-      <img src="~/assets/img/hari_guru.jpg" class="card-img-top" alt="Expo" />
+      <img src="~/assets/img/binsik.jpg" class="card-img-top" alt="Expo" />
       <div class="card-body">
-        <h5 class="card-title text-dark">hari guru</h5>
-        <p class="card-text">Highlights from the recent event.</p>
+        <h5 class="card-title text-dark">Binsik</h5>
+        <p class="card-text">Kegiatan binsik atau bimbingan fisik adalah kegiatan yang di berikan kepada kelas 12 setiap minggunya</p>
         <small class="text-muted">Last updated 3 mins ago</small>
       </div>
     </div>

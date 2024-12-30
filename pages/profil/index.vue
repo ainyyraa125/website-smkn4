@@ -2,39 +2,8 @@
     <div class="container mt-4">
       <!-- Konten Profil Sekolah -->
       <div class="d-flex align-items-center flex-wrap mb-4">
-        <!-- Kolom Tabel Informasi -->
-        <div class="p-2 flex-fill">
-          <h2>Informasi Sekolah</h2>
-          <table class="table table-bordered shadow-sm">
-            <tbody>
-              <tr>
-                <th scope="row">Nama Sekolah</th>
-                <td>SMKN 4 Tasikmalaya</td>
-              </tr>
-              <tr>
-                <th scope="row">Tahun Berdiri</th>
-                <td>2012</td>
-              </tr>
-              <tr>
-                <th scope="row">Alamat</th>
-                <td>Jl Depok Kel. Sukamenak Kec. Purbaratu
-                  Kota Tasikmalaya 46196.</td>
-              </tr>
-              <tr>
-                <th scope="row">Nomor Statistik Sekolah</th>
-                <td>401327810004</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-  
-        <!-- Kolom Gambar Logo -->
+      <!-- Kolom Gambar Logo -->
         <div class="p-2 flex-fill text-center logo-container">
-          <img
-            src="~/assets/img/logo.png"
-            alt="Logo SMKN 4 Tasikmalaya"
-            class="img-fluid rounded shadow"
-          />
         </div>
       </div>
   

@@ -1,85 +1,96 @@
 <template>
-    <div class="container mt-5">
-        <h2 class="text-center mb-4 font-weight-bold" style="color: black;">EKSTRAKULIKULER</h2>
-        <div class="table-responsive shadow-lg rounded">
-            <table class="table table-bordered table-hover">
-                <thead class="thead-dark bg-primary text-white">
-                    <tr>
-                        <th scope="col">NO</th>
-                        <th scope="col">NAMA</th>
-                        <th scope="col">PEMBINA</th>
-                        <th scope="col">JUMLAH ANGGOTA</th>
-                        <th scope="col">JUMLAH PRESTASI</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>IT CLUB</td>
-                        <td>HILMI S.pd</td>
-                        <td>30</td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>VOLY</td>
-                        <td>IMAT S.pd</td>
-                        <td>40</td>
-                        <td>10</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>PMR</td>
-                        <td>LAELA S.pd</td>
-                        <td>50</td>
-                        <td>10</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">4</th>
-                        <td>PMR</td>
-                        <td>LAELA S.pd</td>
-                        <td>50</td>
-                        <td>10</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">5</th>
-                        <td>PMR</td>
-                        <td>LAELA S.pd</td>
-                        <td>50</td>
-                        <td>10</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-  </template>
-  
-  <style scoped>
-    .table {
-      background-color: #f9f9f9;
-      border-radius: 8px;
-    }
-  
-    .table th, .table td {
-      text-align: center;
-      vertical-align: middle;
-    }
-  
-    .table-responsive {
-      overflow-x: auto;
-    }
-  
-    h2 {
-      font-family: 'Roboto', sans-serif;
-      font-weight: 700;
-    }
-  
-    .thead-dark {
-      background-color: #0056b3;
-    }
-  
-    .table-hover tbody tr:hover {
-      background-color: #e0f7fa;
-    }
-  </style>
-  
+  <div>
+    <header class="header">
+      <h1>Ekstrakurikuler</h1>
+      <p>Sekolah kami memiliki beberapa Ekstrakurikuler yang tersedia:</p>
+    </header>
+    <main class="grid-container">
+      <div v-for="ekskul in ekstrakurikuler" :key="ekskul.id" class="card">
+        <img :src="ekskul.image" :alt="ekskul.name + ' logo'" />
+        <h2>{{ ekskul.name }}</h2>
+        <p>{{ ekskul.description }}</p>
+      </div>
+    </main>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Ekstrakurikuler",
+  data() {
+    return {
+      ekstrakurikuler: [
+        {
+          id: 1,
+          name: "English Club",
+          description:
+            "Melatih kemampuan berbahasa Inggris melalui diskusi, debat, dan kegiatan interaktif lainnya.",
+          image: "assets/img/inggris.jpeg",
+        },
+        {
+          id: 2,
+          name: "IT Club",
+          description:
+            "Mengembangkan keterampilan teknologi, termasuk pemrograman, desain grafis, dan lainnya.",
+          image: "assets/img/it.jpeg",
+        },
+        {
+          id: 3,
+          name: "Bulu Tangkis",
+          description:
+            "Meningkatkan kemampuan bermain bulu tangkis sambil menjaga kesehatan.",
+          image: "assets/img/badminton.jpeg",
+        },
+        // Tambahkan lebih banyak data jika diperlukan
+      ],
+    };
+  },
+};
+</script>
+
+<style scoped>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #003366; /* Biru utama */
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+}
+
+.card img {
+  max-width: 100px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+}
+</style>

@@ -13,11 +13,16 @@
               </tr>
               <tr>
                 <th scope="row">Tahun Berdiri</th>
-                <td>1985</td>
+                <td>2012</td>
               </tr>
               <tr>
                 <th scope="row">Alamat</th>
-                <td>Jl. Contoh Alamat No. 123, Tasikmalaya</td>
+                <td>Jl Depok Kel. Sukamenak Kec. Purbaratu
+                  Kota Tasikmalaya 46196.</td>
+              </tr>
+              <tr>
+                <th scope="row">Nomor Statistik Sekolah</th>
+                <td>401327810004</td>
               </tr>
             </tbody>
           </table>

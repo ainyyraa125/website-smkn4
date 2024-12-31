@@ -75,6 +75,10 @@
       </div>
     </div>
   </div>
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white text-center py-4">
+      <p>&copy; 2024 SMKN 4 Tasikmalaya | Semua Hak Cipta Dilindungi</p>
+    </footer>
 </template>
 
 <script>

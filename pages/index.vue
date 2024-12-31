@@ -1,49 +1,74 @@
 <template>
-  <!-- Logo Section -->
-  <div class="text-center mt-4">
-    <img src="~/assets/img/home.jpg" alt="Logo SMKN 4 Tasikmalaya" class="img-fluid" />
-  </div>
-
-  <!-- Sambutan Kepala Sekolah Section -->
-  <h2 class="bg-secondary text-white text-center py-3 mt-5 mb-4 rounded-3">SAMBUTAN KEPALA SEKOLAH</h2>
-  <div class="d-flex align-items-center justify-content-center mt-4 shadow-sm rounded-lg" style="background-color: #f5f5f5; padding: 20px;">
-    <img src="~/assets/img/kepsek.png" alt="Kepala Sekolah" class="rounded-circle border border-4 border-primary" style="width: 150px; height: 150px;"/>
-    <div class="ms-4">
-      <h3 class="text-dark fw-bold">Sambutan Kepala Sekolah</h3>
-      <p class="text-muted">Selamat datang di website resmi SMKN 4 Tasikmalaya. Kami sangat senang dapat memperkenalkan sekolah kami melalui platform ini. Di sini, Anda akan menemukan informasi penting mengenai kegiatan, program unggulan, serta prestasi yang telah kami raih selama ini.
-
-</p>
-      <small class="text-muted">Kepala Sekolah, SMKN 4 Tasikmalaya</small>
-    </div>
-  </div>
-
-  <!-- BERITA Section -->
-  <h2 class="bg-secondary text-white text-center py-3 mt-5 rounded-3">BERITA</h2>
-  <div class="card-group mt-4">
-    <div class="card shadow-sm rounded-lg mx-2">
-      <img src="~/assets/img/expo.webp" class="card-img-top" alt="Expo" />
-      <div class="card-body">
-        <h5 class="card-title text-dark">EXPO</h5>
-        <p class="card-text">Latest update on our school expo.</p>
-        <small class="text-muted">Last updated 3 mins ago</small>
+  <div>
+    <!-- Hero Section -->
+    <section class="hero-section text-center text-white py-5">
+      <div class="container">
+        <h1 class="display-4 mb-4">Selamat Datang di SMKN 4 Tasikmalaya</h1>
+        <p class="lead mb-4">Temukan informasi terbaru mengenai kegiatan, prestasi, dan program unggulan kami</p>
       </div>
-    </div>
-    <div class="card shadow-sm rounded-lg mx-2">
-      <img src="~/assets/img/fair.jpg" class="card-img-top" alt="Expo" />
-      <div class="card-body">
-        <h5 class="card-title text-dark">Job Fair</h5>
-        <p class="card-text">Details about our upcoming event.</p>
-        <small class="text-muted">Last updated 3 mins ago</small>
+    </section>
+
+    <!-- Gambar di atas Sambutan Kepala Sekolah -->
+    <section class="header-image-section">
+      <img src="~/assets/img/home.jpg" alt="Selamat Datang Di Website SMKN 4" class="img-fluid w-100" />
+    </section>
+
+    <!-- Sambutan Kepala Sekolah -->
+    <section class="sambutan-section py-5" id="sambutan">
+      <div class="container text-center">
+        <h2 class="mb-4">Sambutan Kepala Sekolah</h2>
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <img src="~/assets/img/kepsek.png" alt="Kepala Sekolah" class="img-fluid rounded-circle" />
+          </div>
+          <div class="col-md-8">
+            <p class="lead">Selamat datang di website resmi SMKN 4 Tasikmalaya. Kami dengan bangga mempersembahkan berbagai informasi tentang sekolah kami, kegiatan, dan prestasi yang telah kami capai.</p>
+            <p><small class="text-muted">Kepala Sekolah, SMKN 4 Tasikmalaya</small></p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card shadow-sm rounded-lg mx-2">
-      <img src="~/assets/img/binsik.jpg" class="card-img-top" alt="Expo" />
-      <div class="card-body">
-        <h5 class="card-title text-dark">Binsik</h5>
-        <p class="card-text">Kegiatan binsik atau bimbingan fisik adalah kegiatan yang di berikan kepada kelas 12 setiap minggunya</p>
-        <small class="text-muted">Last updated 3 mins ago</small>
+    </section>
+
+    <!-- Berita Terbaru -->
+    <section class="berita-section py-5" id="berita">
+      <div class="container text-center">
+        <h2 class="mb-4">Berita Terbaru</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="~/assets/img/expo.webp" class="card-img-top" alt="Expo" />
+              <div class="card-body">
+                <h5 class="card-title">Expo Sekolah</h5>
+                <p class="card-text">Update terbaru tentang Expo sekolah kami, kegiatan yang menarik dan penuh informasi.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="~/assets/img/fair.jpg" class="card-img-top" alt="Job Fair" />
+              <div class="card-body">
+                <h5 class="card-title">Job Fair</h5>
+                <p class="card-text">Dapatkan informasi terbaru mengenai Job Fair yang akan diadakan oleh sekolah.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="~/assets/img/binsik.jpg" class="card-img-top" alt="Binsik" />
+              <div class="card-body">
+                <h5 class="card-title">Binsik</h5>
+                <p class="card-text">Kegiatan binsik adalah bimbingan fisik untuk kelas 12 yang bertujuan untuk mempersiapkan ujian akhir.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-4">
+      <p>&copy; 2024 SMKN 4 Tasikmalaya | Semua Hak Cipta Dilindungi</p>
+    </footer>
   </div>
 </template>
 
@@ -54,132 +79,94 @@ export default {
 </script>
 
 <style scoped>
-/* Global Styling */
-h3 {
-  font-size: 1.75rem;
-  font-weight: 600;
-  color: #000000;
-  margin-bottom: 1.25rem;
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
 }
 
-.card-group .card {
-  margin: 0 10px;
+/* Hero Section */
+.hero-section {
+  background: url('~/assets/img/hero-bg.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 5rem 0;
 }
 
-.card-img-top {
-  object-fit: cover;
-  height: 200px;
-  border-bottom: 4px solid #000000;
-}
-
-.bg-primary {
-  background-color: #000000 !important;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.ms-4 {
-  margin-left: 1.5rem;
-}
-
-.text-muted {
-  font-size: 0.875rem;
-}
-
-.card-body p {
-  font-size: 1rem;
-  color: #333;
-}
-
-.card-body h5 {
-  font-size: 1.25rem;
+.hero-section h1 {
+  font-size: 3rem;
   font-weight: bold;
-  color: #000000;
 }
 
-.card-body small {
-  font-size: 0.875rem;
-  color: #777;
+.hero-section .lead {
+  font-size: 1.25rem;
 }
 
-.bg-secondary {
-  background-color: #6c757d;
-}
-
-/* Improve the logo section */
-.img-fluid {
-  max-width: 100%;
+/* Gambar di atas Sambutan Kepala Sekolah */
+.header-image-section img {
+  width: 100%;
   height: auto;
+  margin-bottom: 2rem;
 }
 
 /* Sambutan Kepala Sekolah Section */
-.shadow-sm {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.sambutan-section {
+  background-color: #f8f9fa;
 }
 
-.rounded-lg {
-  border-radius: 10px;
-}
-
-.border-primary {
-  border-color: #007bff;
-}
-
-/* News Section */
-.card-title {
+.sambutan-section h2 {
+  font-size: 2.5rem;
   font-weight: bold;
-  color: #000;
-}
-
-.card-body .card-text {
-  font-size: 1rem;
   color: #333;
 }
 
-.card-group .card {
-  transition: transform 0.3s ease-in-out;
+/* Berita Terbaru Section */
+.berita-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
 }
 
-.card-group .card:hover {
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
   transform: translateY(-5px);
 }
 
-.card-body small {
-  font-size: 0.875rem;
-  color: #777;
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
 }
 
-/* Media Queries for responsiveness */
+/* Footer */
+footer {
+  background-color: #343a40;
+}
+
+footer p {
+  margin: 0;
+  color: #adb5bd;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
-  .d-flex {
-    flex-direction: column;
-    align-items: center;
+  .hero-section h1 {
+    font-size: 2rem;
   }
 
-  .ms-4 {
-    margin-left: 0;
+  .hero-section .lead {
+    font-size: 1rem;
   }
 
-  .card-group {
-    flex-direction: column;
+  .sambutan-section .row {
+    flex-direction: column-reverse;
   }
 
-  .card {
-    margin-bottom: 1rem;
-  }
-
-  .card-img-top {
-    height: 180px;
-  }
-
-  h3 {
-    font-size: 1.5rem;
-  }
-
-  .text-center h2 {
-    font-size: 1.5rem;
+  .sambutan-section img {
+    width: 100%;
+    height: auto;
   }
 }
 </style>

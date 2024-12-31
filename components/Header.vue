@@ -20,9 +20,8 @@
                     </li>
                     <li class="nav-item">
                         <nuxt-link class="nav-link" to="./profil">PROFIL</nuxt-link>
-                    </li>
-                    <li class="nav-item">
                         <nuxt-link class="nav-link" to="./data">DATA</nuxt-link>
+
                     </li>
                     <li class="nav-item">
                         <nuxt-link class="nav-link" to="./jurusan">JURUSAN</nuxt-link>

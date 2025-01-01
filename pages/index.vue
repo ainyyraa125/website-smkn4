@@ -22,7 +22,9 @@
             <img src="~/assets/img/kepsek.png" alt="Kepala Sekolah" class="img-fluid rounded-circle" />
           </div>
           <div class="col-md-8">
-            <p class="lead">Selamat datang di website resmi SMKN 4 Tasikmalaya. Kami dengan bangga mempersembahkan berbagai informasi tentang sekolah kami, kegiatan, dan prestasi yang telah kami capai.</p>
+            <p class="lead">Assalamualaikum warahmatullahi wabarakatuh,
+Salam sejahtera bagi kita semua,Selamat datang di website SMKN 4 Tasikmalaya,
+Alhamdulillah, puji syukur kita panjatkan kepada Tuhan Yang Maha Esa, karena berkat rahmat dan karunia-Nya, kita diberikan kesempatan untuk terus berkembang dalam dunia pendidikan. Website ini kami hadirkan sebagai sarana komunikasi dan informasi yang dapat mempermudah hubungan antara sekolah, siswa, orang tua, dan masyarakat luas.Di SMKN 4 Tasikmalaya, kami percaya bahwa pendidikan adalah investasi terbaik bagi masa depan bangsa. Oleh karena itu, kami selalu berkomitmen untuk memberikan layanan pendidikan yang berkualitas, mencetak generasi yang cerdas, berkarakter, serta siap menghadapi tantangan global.Kami juga sangat menghargai peran serta orang tua dan masyarakat dalam mendukung kemajuan sekolah ini. Semoga melalui informasi yang ada di website ini, kita dapat mempererat kerja sama yang telah terjalin dan membangun lingkungan belajar yang lebih baik.Terima kasih atas perhatian dan kepercayaan yang diberikan kepada kami. Semoga SMKN 4 Tasikmalaya dapat terus memberikan kontribusi terbaik untuk pendidikan dan kemajuan anak bangsa.Wassalamualaikum warahmatullahi wabarakatuh.</p>
             <p><small class="text-muted">Kepala Sekolah, SMKN 4 Tasikmalaya</small></p>
           </div>
         </div>
@@ -39,7 +41,9 @@
               <img src="~/assets/img/expo.webp" class="card-img-top" alt="Expo" />
               <div class="card-body">
                 <h5 class="card-title">Expo Sekolah</h5>
-                <p class="card-text">Update terbaru tentang Expo sekolah kami, kegiatan yang menarik dan penuh informasi.</p>
+                <p class="card-text">Expo sebuah acara yang penuh dengan kreativitas, inovasi, dan prestasi. Di sini, para siswa menunjukkan hasil karya mereka dalam berbagai bidang, mulai dari seni, teknologi, hingga ilmu pengetahuan. Expo ini merupakan wujud nyata dari proses pembelajaran yang mereka jalani, serta bukti komitmen kami dalam mencetak generasi yang siap bersaing di dunia global.
+
+</p>
               </div>
             </div>
           </div>
@@ -48,7 +52,7 @@
               <img src="~/assets/img/fair.jpg" class="card-img-top" alt="Job Fair" />
               <div class="card-body">
                 <h5 class="card-title">Job Fair</h5>
-                <p class="card-text">Dapatkan informasi terbaru mengenai Job Fair yang akan diadakan oleh sekolah.</p>
+                <p class="card-text">Acara ini merupakan kesempatan luar biasa bagi para siswa, alumni, dan pencari kerja untuk bertemu langsung dengan berbagai perusahaan terkemuka yang membuka peluang karier menarik.</p>
               </div>
             </div>
           </div>
@@ -57,7 +61,7 @@
               <img src="~/assets/img/binsik.jpg" class="card-img-top" alt="Binsik" />
               <div class="card-body">
                 <h5 class="card-title">Binsik</h5>
-                <p class="card-text">Kegiatan binsik adalah bimbingan fisik untuk kelas 12 yang bertujuan untuk mempersiapkan ujian akhir.</p>
+                <p class="card-text">Binsik adalah program yang dirancang untuk membantu siswa dalam mengembangkan potensi diri, mengatasi tantangan pribadi, serta merencanakan masa depan yang lebih baik.Acara ini bertujuan untuk memberikan dukungan emosional, psikologis, dan sosial bagi para siswa agar dapat menjalani kehidupan sekolah dengan lebih percaya diri dan seimbang.</p>
               </div>
             </div>
           </div>
